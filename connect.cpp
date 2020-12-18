@@ -2,7 +2,7 @@
 #include <string>
 using namespace std;
 
-
+// This method done by my partner
 void gameboard(string point[6][6])
 {
     cout << "___________" << endl;
@@ -19,6 +19,8 @@ void gameboard(string point[6][6])
     cout << "|" << point[5][0] << "|" << point[5][1] << "|" << point[5][2] << "|" << point[5][3] <<
         "|" << point[5][4] << "|" << point[5][5] << "|" << endl;
 }
+
+// This method done by me
 
 string win (string array[6][6], string marker)
 {
@@ -120,6 +122,8 @@ count = 0;
     return "progress";
 }
 
+
+// This method was done jointly
 int main()
 {
     int player = 1;
